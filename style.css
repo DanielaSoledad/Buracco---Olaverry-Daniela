@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+.menu {
+    list-style-type: none;
+   background-color: black;
+   padding: 20px;
+   font-size: 20px;
+ }
+   
+.menu li {
+    display: inline;
+    margin-right: 10px;
+    }
+
+.menu li a {
+    color: yellow
+}
+
+header {
+   display: flex;
+   height: 70px;
+   background-color: black;
+   justify-content: space-between;
+   align-items: center;
+    }
+
+.encabezado {
+    padding: 20px;
+   }
+
+.copy {
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+   }
+
+body{
+    background-image: url("./assets/Bu2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   display: grid;
+   min-height: 100vh;
+   grid-template-rows: auto 1fr auto;
+  }
+
+h1 {
+    color: white;
+}
+
+h3{
+    color: white;
+}
+h5{
+    color: white;
+}
+
+.carta{
+    color: white;
+    font-size: 20px;
+    padding: 0%;
+    list-style-type: none;
+    text-shadow: 2px 2px black;
+}
+
+.fuente {
+    font-size: 40px; padding: 10px;
+}
+
+.fuente2 {
+    font-size: 25px; padding: 10px;
+}
+
+.fuente3 {
+    padding: 40px;
+}
+
+.fuente6 {
+    font-size: 45px;
+}
+
+.color {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.resto {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.register {
+    width: 1000px;
+    height: 600px;
+    display: grid;
+    padding: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+     "caja1 caja1"
+     "caja2 caja2";
+}
+
+.register2 {
+    width: 1000px;
+    height: 400px;
+    display: grid;
+    padding: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+     "caja3 caja3"
+     "caja4 caja4";
+     row-gap: 30px;
+     /* column-gap: 30px; */
+}
+  
+.caja4 {
+    text-shadow: 2px 2px black;
+}
+
